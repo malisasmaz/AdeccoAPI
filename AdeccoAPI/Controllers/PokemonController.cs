@@ -21,9 +21,6 @@ namespace AdeccoAPI.Controllers {
 
         [HttpGet]
         public async Task<NamedApiResourceList<NamedApiResource>> GetAll() {
-
-            //TODO 20 tane pokemonu çekeceğim
-
             return await _service.GetAll();
         }
 

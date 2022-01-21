@@ -13,7 +13,6 @@ namespace AdeccoAPI.Services {
         private readonly HttpClient _client;
         private readonly Uri _baseUri = new Uri("https://pokeapi.co/api/v2/");
 
-        //TODO: control here
         public PokemonService() {
             _client = new HttpClient { BaseAddress = _baseUri };
         }
